@@ -1,0 +1,50 @@
+.privet {
+    width: 500px;
+    height: 500px;
+}
+
+.nav-buttons {
+    margin: 10px 0 0 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 120px;
+    height: 60px;
+}
+
+.nav-buttons h4 {
+    color: white;
+}
+
+.firstoption {
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    padding: 10px 10px;
+    width: 80px;
+}
+
+.boxcont {
+    position: absolute;
+    flex-direction: column;
+    display: none;
+    top: 120%;
+    left: 0;
+    width: 100px;
+}
+
+.option {
+    display: inline-block;
+    justify-content: start;
+    align-items: center;
+    width: 120px;
+    height: 60px;
+    padding: 10px 10px;
+    border: 1px solid white;
+    background-color: white;
+}
+
+.firstoption:hover .boxcont {
+    display: flex;
+}

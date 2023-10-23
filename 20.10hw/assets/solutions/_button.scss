@@ -1,0 +1,70 @@
+@mixin buttonstyling {
+    background-color: #00D363;
+    color: white;
+    border-radius: 5px;
+    border: 1px solid #00D363;
+    font-weight: 600;
+    display: grid;
+    place-items: center;
+    transition: .2s linear;
+    text-decoration: none;
+}
+
+.post-a-job {
+    width: 150px;
+    height: 50px;
+    @include buttonstyling;
+    &:hover {
+        background-color: transparent;
+        color: #00D363;
+    }
+}
+
+.upload-your-resume {
+    width: 230px;
+    height: 50px;
+    margin-top: 10px;
+    @include buttonstyling;
+    &:hover {
+        background-color: transparent;
+        color: #00D363;
+    }
+}
+
+.find-a-job {
+    width: 230px;
+    height: 50px;
+    @include buttonstyling;
+    &:hover {
+        background-color: transparent;
+        color: #00D363;
+    }
+}
+
+.browse-more-job {
+    width: 230px;
+    height: 50px;
+    background-color: transparent;
+    color: #00D363;
+    display: grid;
+    place-items: center;
+    transition: .2s linear;
+    text-decoration: none;
+    border: 1px solid #00D363;
+    border-radius: 5px;
+    font-size: 20px;
+    &:hover {
+        background-color: #00D363;
+        color: white;
+    }
+}
+
+.applynow {
+    width: 130px;
+    height: 40px;
+    @include buttonstyling;
+    &:hover {
+        background-color: transparent;
+        color: #00D363;
+    }
+}

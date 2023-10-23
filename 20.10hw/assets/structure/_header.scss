@@ -1,0 +1,66 @@
+.main-header-wrapper {
+    width: 100%;
+    min-height: 70vh;
+    background-image: url(/assets/imgs/banner.png.webp);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.nav-wrapper {
+    height: 70vh;
+    position: relative;
+}
+
+.nav-bar {
+    max-width: 1600px;
+    width: 100%;
+    min-height: 10vh;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.login {
+    display: flex;
+    color: white;
+    width: 230px;
+    height: 100px;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.hero {
+    display: flex;
+    align-items: start;
+    justify-content: center;
+    flex-direction: column;
+    min-height: 58vh;
+    width: 100%;
+    max-width: 1200px;
+    margin: auto;
+    position: relative;
+    color: white;
+    gap: 20px;
+}
+
+.hero h1 {
+    font-size: 52px;
+}
+
+.illustration {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+}
+
+.illustration img {
+    max-width: 600px;
+    min-height: 400px;
+    object-fit: cover;
+}
+
+.nav-buttons-wrapper {
+    display: flex;
+}
